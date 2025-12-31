@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "Experience", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -101,24 +101,24 @@ const blogPosts = [
 
 const techStack = [
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    category: "Languages",
+    items: ["Python", "HTML", "CSS"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "AI & ML",
+    items: ["Sci-Kit", "NLTK", "LangChain"],
   },
   {
-    category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    category: "AWS",
+    items: ["S3", "Athena", "Glue", "Quicksight", "EC2"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    category: "Data Analysis",
+    items: ["Excel", "PowerBI", "Tableau", "DataBricks"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MySQL", "PostgreSQL"],
   },
   {
     category: "Dev Tools",
