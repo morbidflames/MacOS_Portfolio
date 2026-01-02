@@ -9,7 +9,7 @@ This **MacOS style personal portfolio** is built with **React**, **Tailwind CSS*
 ✨ Smooth animations using **GSAP**  
 ⚛️ Built with **React** for modular structure  
 🎨 Styled using **Tailwind CSS**  
-📱 Responsive design for all screen sizes
+📱 Responsive design for all screen sizes  
 🗃️ **Zustand** for managing global UI state in a clean and simple way
 
 ## 📦 Technologies Used
