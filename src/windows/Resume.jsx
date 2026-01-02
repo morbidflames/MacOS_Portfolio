@@ -25,13 +25,16 @@ const Resume = () => {
                 </a>
             </div>
 
-            <Document file="files/resume.pdf">
-                <Page
-                    pageNumber={1}
-                    renderTextLayer
-                    renderAnnotationLayer
-                />
-            </Document>
+            {/*Wrap document in div to make it scrollable*/}
+            <div className="bg-black max-h-[80vh] overflow-y-auto">
+                <Document file="files/resume.pdf">
+                    <Page
+                        pageNumber={1}
+                        renderTextLayer
+                        renderAnnotationLayer
+                    />
+                </Document>
+            </div>
         </>
     );
 };
