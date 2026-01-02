@@ -24,14 +24,16 @@ This project showcases an interactive, animated portfolio UI inspired by macOS d
 | Zustand | Global state management |
 | Deployment | Netlify |
 
-## 💻 Project Structure
-├── public/
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── styles/ # Tailwind configuration
-│ ├── animations/ # GSAP animations & timeline
-│ ├── App.js
-│ └── index.js
-├── tailwind.config.js
-├── package.json
-└── README.md
+## 💻 Project Structure  
+
+├── public/  
+├── src/  
+│ ├── components/ # Reusable UI components  
+│ ├── styles/ # Tailwind configuration  
+│ ├── animations/ # GSAP animations & timeline  
+│ ├── App.js  
+│ └── index.js  
+├── tailwind.config.js  
+├── package.json  
+└── README.md  
+
