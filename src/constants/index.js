@@ -70,7 +70,7 @@ const dockApps = [
     id: "trash",
     name: "Archive", // was "Trash"
     icon: "trash.png",
-    canOpen: false,
+    canOpen: true,
   },
 ];
 
@@ -102,11 +102,11 @@ const blogPosts = [
 const techStack = [
   {
     category: "Languages",
-    items: ["Python", "HTML", "CSS"],
+    items: ["Python", "Java", "HTML", "CSS"],
   },
   {
     category: "AI & ML",
-    items: ["Sci-Kit", "NLTK", "LangChain"],
+    items: ["Sci-Kit", "NLTK", "LangChain", "Pandas", "NumPy"],
   },
   {
     category: "AWS",
@@ -182,19 +182,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/fluidic.png",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/tahoe.png",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/purple.png",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/RB.png",
   },
 ];
 
@@ -219,7 +219,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Luxsole: An e-Commerce platform for sneakers",
+      name: "Luxsole: E-commerce store for Sneakers",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,7 +233,7 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The LuxSole eCommerce website is a clean and modern shoe-shopping experience designed in Figma for browsing premium footwear.",
+            "The Luxsole E-Commerce website design is a clean UI and a modern shoe-shopping experience designed in Figma for browsing premium footwear.",
             "Instead of plain product listings, it offers category-based pages with interactive elements like size selection, wishlist, share icons, and a responsive “Buy Now” button.",
             "It feels like moving through a well-organized footwear showroom, where each shoe type has its own dedicated space.",
             "A central home page with clickable shoe silhouette icons and logo-based navigation ensures smooth, intuitive movement across the entire site.",
@@ -329,7 +329,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[35vh] left-7",
       children: [
         {
           id: 1,
@@ -382,7 +382,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.png",
     },
     {
       id: 2,
@@ -391,16 +391,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/me-2.png",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "suit-me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/me-3.png",
     },
     {
       id: 4,
@@ -409,10 +409,10 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "Introduction",
+      image: "/images/me.png",
       description: [
-        "Hey! I’m Tarun ✌️, a web developer who enjoys transforming complex data into real, usable insights and strong machine learning solutions",
+        "Hey! I’m Tarun ✌️, a Computer Science Engineer who enjoys transforming complex data into real, usable insights and strong machine learning solutions",
         "I focus on careful data analysis, building advanced models, and improving performance, using solid programming and database skills.",
         "I take pleasure in breaking down difficult problems into smaller pieces and creating a reliable and efficient system.",
         "My motivation comes from bringing technical ideas to life and helping others with clear processes and data-driven innovation.",
