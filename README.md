@@ -1,7 +1,9 @@
 # MacOS-Style Portfolio Website
 👉 https://tarunskumar-portfolio.netlify.app/
 
-This **MacOS style personal portfolio** is built with **React**, **Tailwind CSS**, and **GSAP** animations with **Zustand** state management. This project showcases an interactive, animated portfolio UI inspired by macOS design, to showcase my work in a modern, engaging way. :contentReference[oaicite:1]{index=1}
+This **MacOS style personal portfolio** is built with **React**, **Tailwind CSS**, and **GSAP** animations with **Zustand** state management.  
+
+This project showcases an interactive, animated portfolio UI inspired by macOS design, to showcase my work in a modern, engaging way.
 
 ## 🚀 Features
 
