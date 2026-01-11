@@ -294,11 +294,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "semantic_book_recommender.ipynb",
+          name: "semantic_book_recommender",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/morbidflames/semantic_book_recommender",
+          href: "https://huggingface.co/spaces/morbidflames/Semantic_Book_Recommendation",
           position: "top-20 left-20",
         },
         {
