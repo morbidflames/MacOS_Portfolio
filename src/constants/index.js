@@ -219,64 +219,11 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Luxsole: E-commerce store for Sneakers",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-10 left-10", // optional: Finder window position
-      children: [
-        {
-          id: 1,
-          name: "Luxsole.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "The Luxsole E-Commerce website design is a clean UI and a modern shoe-shopping experience designed in Figma for browsing premium footwear.",
-            "Instead of plain product listings, it offers category-based pages with interactive elements like size selection, wishlist, share icons, and a responsive “Buy Now” button.",
-            "It feels like moving through a well-organized footwear showroom, where each shoe type has its own dedicated space.",
-            "A central home page with clickable shoe silhouette icons and logo-based navigation ensures smooth, intuitive movement across the entire site.",
-          ],
-        },
-        {
-          id: 2,
-          name: "Luxsole.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          imageUrl: "/images/project-2.png",
-          position: "top-10 right-20",
-        },
-        {
-          id: 4,
-          name: "Luxsole1.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://www.figma.com/design/V0EipYwo7zvBBJzudOlJC2/Luxsole?node-id=0-1&t=ujhlRxsefHbtwTyL-1",
-          position: "top-60 right-20",
-        },
-      ],
-    },
-
-    // ▶ Project 2
-    {
-      id: 6,
       name: "Semantic Book Recommender",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-44 left-10",
+      windowPosition: "top-10 left-10",
       children: [
         {
           id: 1,
@@ -321,6 +268,61 @@ const WORK_LOCATION = {
         },
       ],
     },
+
+
+    // ▶ Project 2
+    {
+      id: 6,
+      name: "AWS Data Analytics Pipeline",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-5", // icon position inside Finder
+      windowPosition: "top-44 left-10", // optional: Finder window position
+      children: [
+        {
+          id: 1,
+          name: "AWS.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "The AWS Data Analytics project is an AWS-based data analytics system built to transform raw cloud data into meaningful insights.",
+            "Instead of manually processing files, it uses managed AWS services to store, query, clean, and automate data workflows at scale.",
+            "By combining Athena for SQL analytics and Glue for ETL, the system turns raw datasets into structured, analysis-ready data.",
+            "Built with Amazon S3, Athena, Glue, Glue DataBrew, and QuickSight, it delivers fast, reliable dashboards through a modern cloud analytics pipeline.",
+          ],
+        },
+        {
+          id: 2,
+          name: "System Architecture.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/project-2.png",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "ETL Pipeline",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-1.png",
+        },
+        {
+          id: 5,
+          name: "AWS project",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://github.com/morbidflames/Data_Analytics_Using_AWS",
+          position: "top-60 right-20",
+        },
+      ],
+    },
+
 
     // ▶ Project 3
     {
